@@ -1,4 +1,3 @@
-// Struktur data IComment
 const comments = [
     {
         commentId: 1,
@@ -36,18 +35,16 @@ const comments = [
     }
 ];
 
-// Fungsi rekursif untuk menghitung total komentar dan balasannya
 function countTotalComments(comments) {
     let totalComments = 0;
     comments.forEach(comment => {
-        totalComments++; // Menghitung komentar itu sendiri
+        totalComments++;
         if (comment.replies) {
-            totalComments += countTotalComments(comment.replies); // Menambahkan jumlah balasan dari komentar tersebut
+            totalComments += countTotalComments(comment.replies);
         }
     });
     return totalComments;
 }
 
-// Menghitung total komentar
 const totalComments = countTotalComments(comments);
 console.log("Total komentar:", totalComments);
