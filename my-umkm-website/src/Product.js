@@ -1,5 +1,11 @@
 import React from 'react';
-import logo from './assets/logo.png';
+import Navbar from "./Navbar";
+import carrot from './assets/carrot.jpg';
+import tomato from './assets/tomato.jpg';
+import cucumber from './assets/cucumber.jpg';
+import lettuce from './assets/lettuce.jpg';
+import broccoli from './assets/broccoli.jpg';
+import spinach from './assets/spinach.jpg';
 
 const Product = () => {
   return (
@@ -7,37 +13,37 @@ const Product = () => {
       <Navbar />
 
       <div className="container mx-auto">
-        <h1 className="text-2xl lg:text-4xl font-medium mb-5 text-center">WHAT WE DO</h1>
+        <h1 className="text-2xl lg:text-4xl font-medium mb-5 text-center">MACAM-MACAM SAYURAN</h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-6">
-            <img src={logo} alt="Technology Services" className="w-24 h-24 mb-4 mx-auto" />
-            <h2 className="text-lg font-semibold text-center mb-2">Technology Services</h2>
-            <p className="text-sm text-gray-600">Penatibus vivamus amet. Mi vel lobortis etiam metus dis lacinia aliquam consequat sapien. Nunc nostra cubilia imperdiet consequat. Nulla parturient nostra integer.</p>
+            <img src={carrot} alt="Carrot" className="w-24 h-24 mb-4 mx-auto" />
+            <h2 className="text-lg font-semibold text-center mb-2">Wortel</h2>
+            <p className="text-sm text-gray-600">Sayuran yang kaya akan vitamin A dan serat. Harga: Rp 5000/kg</p>
           </div>
           <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-6">
-            <img src={logo} alt="Economic Services" className="w-24 h-24 mb-4 mx-auto" />
-            <h2 className="text-lg font-semibold text-center mb-2">Economic Services</h2>
-            <p className="text-sm text-gray-600">Penatibus vivamus amet. Mi vel lobortis etiam metus dis lacinia aliquam consequat sapien. Nunc nostra cubilia imperdiet consequat. Nulla parturient nostra integer.</p>
+            <img src={tomato} alt="Tomato" className="w-24 h-24 mb-4 mx-auto" />
+            <h2 className="text-lg font-semibold text-center mb-2">Tomat</h2>
+            <p className="text-sm text-gray-600">Buah yang kaya akan vitamin C dan antioksidan. Harga: Rp 7000/kg</p>
           </div>
           <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-6">
-            <img src={logo} alt="Business Services" className="w-24 h-24 mb-4 mx-auto" />
-            <h2 className="text-lg font-semibold text-center mb-2">Business Services</h2>
-            <p className="text-sm text-gray-600">Penatibus vivamus amet. Mi vel lobortis etiam metus dis lacinia aliquam consequat sapien. Nunc nostra cubilia imperdiet consequat. Nulla parturient nostra integer.</p>
+            <img src={cucumber} alt="Cucumber" className="w-24 h-24 mb-4 mx-auto" />
+            <h2 className="text-lg font-semibold text-center mb-2">Timun</h2>
+            <p className="text-sm text-gray-600">Sayuran yang mengandung banyak air dan rendah kalori. Harga: Rp 4000/kg</p>
           </div>
           <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-6">
-            <img src={logo} alt="Real Estate Services" className="w-24 h-24 mb-4 mx-auto" />
-            <h2 className="text-lg font-semibold text-center mb-2">Real Estate Services</h2>
-            <p className="text-sm text-gray-600">Penatibus vivamus amet. Mi vel lobortis etiam metus dis lacinia aliquam consequat sapien. Nunc nostra cubilia imperdiet consequat. Nulla parturient nostra integer.</p>
+            <img src={lettuce} alt="Lettuce" className="w-24 h-24 mb-4 mx-auto" />
+            <h2 className="text-lg font-semibold text-center mb-2">Selada</h2>
+            <p className="text-sm text-gray-600">Sayuran hijau yang kaya akan serat dan vitamin K. Harga: Rp 6000/kg</p>
           </div>
           <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-6">
-            <img src={logo} alt="Industrial Services" className="w-24 h-24 mb-4 mx-auto" />
-            <h2 className="text-lg font-semibold text-center mb-2">Industrial Services</h2>
-            <p className="text-sm text-gray-600">Penatibus vivamus amet. Mi vel lobortis etiam metus dis lacinia aliquam consequat sapien. Nunc nostra cubilia imperdiet consequat. Nulla parturient nostra integer.</p>
+            <img src={broccoli} alt="Broccoli" className="w-24 h-24 mb-4 mx-auto" />
+            <h2 className="text-lg font-semibold text-center mb-2">Brokoli</h2>
+            <p className="text-sm text-gray-600">Sayuran yang mengandung banyak vitamin C dan sulforaphane. Harga: Rp 8000/kg</p>
           </div>
           <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-6">
-            <img src={logo} alt="Security Services" className="w-24 h-24 mb-4 mx-auto" />
-            <h2 className="text-lg font-semibold text-center mb-2">Security Services</h2>
-            <p className="text-sm text-gray-600">Penatibus vivamus amet. Mi vel lobortis etiam metus dis lacinia aliquam consequat sapien. Nunc nostra cubilia imperdiet consequat. Nulla parturient nostra integer.</p>
+            <img src={spinach} alt="Spinach" className="w-24 h-24 mb-4 mx-auto" />
+            <h2 className="text-lg font-semibold text-center mb-2">Bayam</h2>
+            <p className="text-sm text-gray-600">Sayuran hijau gelap yang kaya akan zat besi dan vitamin A. Harga: Rp 5500/kg</p>
           </div>
         </div>
       </div>
