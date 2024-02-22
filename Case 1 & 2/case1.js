@@ -70,7 +70,7 @@ function countTotalStock() {
 }
 
 function displayComment() {
-    console.log("Komentar terkait kasus di atas: ...");
+    console.log("Komentar terkait kasus di atas: Saya Pribadi tidak ada komentar,Tapi Apel nya ada 2, Apel dan apel dan sama sama IMPORT, saya harapp ini bukan kesalahan:)");
 }
 
 displayFruits();
